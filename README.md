@@ -47,6 +47,12 @@ For the IPO use case, PM-Copilot uses an IPO-specific V6 prompt because pre-list
 
 *Pre-IPO sentiment and Day 1 return show Spearman ρ = +0.93 with permutation p = 0.004 on the focused seven-listing evaluation set.*
 
+The broader IPO event-study also compares Twitter/X and Reddit sentiment means against Day 1 IPO return. This cross-sectional view shows that both social channels carry positive but noisier relationships in the full IPO sample, motivating the narrower IPO-specific prompt and final-window analysis above.
+
+![IPO Twitter and Reddit sentiment comparison](assets/ipo-twitter-reddit-cross-sectional.png)
+
+*Twitter/X and Reddit sentiment both trend positively against Day 1 IPO return in the broader cross-sectional sample, with Twitter/X showing the stronger raw association in this view.*
+
 ## Overview
 
 PM-Copilot addresses the information overload faced by portfolio managers who track many markets, thematic baskets, and individual securities. The system combines structured market data with unstructured news and social sentiment, then presents the result through three levels of analysis:
