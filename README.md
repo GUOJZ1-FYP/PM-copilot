@@ -90,7 +90,7 @@ This repository is intentionally lightweight at this stage.
 | --- | --- |
 | Project ID | GUOJZ1 |
 | Project Title | PM-Copilot: A Multi-Agent LLM System for Financial Sentiment Analysis and Its Application in Equity and IPO Markets |
-| Authors | YUNG Ka Shing, LI Yuchen, JAIN Teerth |
+| Authors | YUNG Ka Shing / Andy Yung (@Andy123qq4), LI Yuchen / Lucas Li (@lucashimselff), JAIN Teerth / Teerth Jain (@Hunter-175) |
 | Advisors | Prof. Song GUO and Prof. Jie ZHANG |
 | Institution | Department of Computer Science and Engineering, The Hong Kong University of Science and Technology |
 | Course | COMP 4981 Final Year Project |
