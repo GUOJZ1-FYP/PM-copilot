@@ -25,6 +25,28 @@ This public repository currently hosts the project README, license, and demonstr
 
 Demo video: [PM-Copilot demo video](https://drive.google.com/file/d/11MKsQK9IBriqFKv95wr4F_3HXMTXyFNy/view?resourcekey).
 
+## 📊 Performance Comparison Results
+
+**Updated: May 1, 2026**
+
+This section summarizes the two evaluation tracks most relevant to PM-Copilot's research claim. Unlike an autonomous trading benchmark, these results evaluate whether the system's sentiment layer produces calibrated, decision-support signals for listed equities and IPO analysis.
+
+### Prompt Engineering: V0 vs V6 Sentiment Calibration
+
+The production V6 prompt adds rubric anchors and sub-scores to reduce the over-clustering seen in the baseline V0 prompt. Raw V6 scores are noisier day to day, but after EMA-21 smoothing V6 slightly overtakes V0 in the share of ticker-lag combinations with significant Spearman correlation.
+
+![Prompt engineering significance comparison](assets/prompt-engineering-significance.png)
+
+*V6 overtakes the baseline after EMA-21 smoothing, supporting the final production choice of V6 prompt design plus EMA-21 smoothing.*
+
+### IPO Sentiment Analysis: Pre-IPO Sentiment vs Day 1 Return
+
+For the IPO use case, PM-Copilot uses an IPO-specific V6 prompt because pre-listing discussion differs from normal listed-equity sentiment. On the filtered seven-listing sample with at least two pre-IPO Reddit days, the final three-day pre-IPO sentiment score shows a strong positive relationship with Day 1 return.
+
+![IPO sentiment correlation](assets/ipo-sentiment-correlation.png)
+
+*Pre-IPO sentiment and Day 1 return show Spearman ρ = +0.93 with permutation p = 0.004 on the focused seven-listing evaluation set.*
+
 ## Overview
 
 PM-Copilot addresses the information overload faced by portfolio managers who track many markets, thematic baskets, and individual securities. The system combines structured market data with unstructured news and social sentiment, then presents the result through three levels of analysis:
