@@ -2,7 +2,7 @@
 
 # PM-Copilot
 
-### A Multi-Agent LLM System for Financial Sentiment Analysis and Portfolio Monitoring
+### A Multi-Agent LLM System for Financial Sentiment Analysis and Its Application in Equity & IPO Markets
 
 **HKUST COMP 4981 Final Year Project · GUOJZ1 · 2025-2026**
 
