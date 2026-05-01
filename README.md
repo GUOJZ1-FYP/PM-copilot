@@ -22,10 +22,10 @@ This public repository currently hosts the project README, license, and demonstr
 ## Demo
 
 <a href="https://drive.google.com/file/d/11MKsQK9IBriqFKv95wr4F_3HXMTXyFNy/view?resourcekey">
-  <img src="https://drive.google.com/thumbnail?id=11MKsQK9IBriqFKv95wr4F_3HXMTXyFNy&sz=w1000" alt="PM-Copilot demo video preview" width="780">
+  <img src="assets/pm-copilot-demo-cover.png" alt="PM-Copilot demo video cover" width="780">
 </a>
 
-If the preview does not load on GitHub, open the demo directly: [PM-Copilot demo video](https://drive.google.com/file/d/11MKsQK9IBriqFKv95wr4F_3HXMTXyFNy/view?resourcekey).
+GitHub READMEs do not render Google Drive video players directly, so the cover image above links to the public demo video: [PM-Copilot demo video](https://drive.google.com/file/d/11MKsQK9IBriqFKv95wr4F_3HXMTXyFNy/view?resourcekey).
 
 ## Overview
 
