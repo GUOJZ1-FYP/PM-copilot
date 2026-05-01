@@ -29,23 +29,7 @@ Demo video: [PM-Copilot demo video](https://drive.google.com/file/d/11MKsQK9IBri
 
 **Updated: May 1, 2026**
 
-This section summarizes the two evaluation tracks most relevant to PM-Copilot's research claim. Unlike an autonomous trading benchmark, these results evaluate whether the system's sentiment layer produces calibrated, decision-support signals for listed equities and IPO analysis.
-
-### Prompt Engineering: V0 vs V6 Sentiment Calibration
-
-The production V6 prompt adds rubric anchors and sub-scores to reduce the over-clustering seen in the baseline V0 prompt. The distribution comparison shows V0 concentrating scores around overly bullish ranges, while V6 spreads scores across a wider, more discriminative sentiment scale.
-
-![V0 and V6 sentiment score distributions](assets/prompt-v0-v6-distribution.png)
-
-*V6 broadens the daily sentiment-score distribution across the nine-ticker evaluation set, reducing the baseline prompt's tendency to cluster around high scores.*
-
-Raw V6 scores are noisier day to day, but after EMA-21 smoothing V6 slightly overtakes V0 in the share of ticker-lag combinations with significant Spearman correlation.
-
-![Prompt engineering significance comparison](assets/prompt-engineering-significance.png)
-
-*V6 overtakes the baseline after EMA-21 smoothing, supporting the final production choice of V6 prompt design plus EMA-21 smoothing.*
-
-### IPO Sentiment Analysis: Pre-IPO Sentiment vs Day 1 Return
+This section highlights PM-Copilot's IPO sentiment analysis results. Unlike an autonomous trading benchmark, these charts evaluate whether pre-IPO social sentiment provides decision-support signal for Day 1 IPO outcomes.
 
 For the IPO use case, PM-Copilot uses an IPO-specific V6 prompt because pre-listing discussion differs from normal listed-equity sentiment. On the filtered seven-listing sample with at least two pre-IPO Reddit days, the final three-day pre-IPO sentiment score shows a strong positive relationship with Day 1 return.
 
