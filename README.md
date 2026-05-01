@@ -84,24 +84,23 @@ This repository is intentionally lightweight at this stage.
 - Source code: under final cleanup and planned for later upload
 - Full reproducibility package: not yet released
 
-## Project Info
-
-| Field | Value |
-| --- | --- |
-| Project ID | GUOJZ1 |
-| Project Title | PM-Copilot: A Multi-Agent LLM System for Financial Sentiment Analysis and Its Application in Equity and IPO Markets |
-| Authors | YUNG Ka Shing / Andy Yung (@Andy123qq4), LI Yuchen / Lucas Li (@lucashimselff), JAIN Teerth / Teerth Jain (@Hunter-175) |
-| Advisors | Prof. Song GUO and Prof. Jie ZHANG |
-| Institution | Department of Computer Science and Engineering, The Hong Kong University of Science and Technology |
-| Course | COMP 4981 Final Year Project |
-| Year | 2025-2026 |
-
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
-We sincerely thank Prof. Song GUO and Prof. Jie ZHANG for their supervision and guidance throughout this project. We also thank the HKUST Department of Computer Science and Engineering and PEILab for providing the academic environment and feedback that shaped PM-Copilot.
+### Research Institution
 
-We are grateful to the open-source and research communities whose tools, datasets, and prior work made this project possible.
+- The Hong Kong University of Science and Technology (HKUST)
+- PEILab (Pervasive Intelligence Laboratory)
+
+### Faculty Advisors
+
+- Prof. Song GUO - HKUST
+- Prof. Jie ZHANG - HKUST
+
+### Contributors
+
+- Undergraduates: YUNG Ka Shing / Andy Yung (@Andy123qq4), LI Yuchen / Lucas Li (@lucashimselff), and Teerth Jain (@Hunter-175)
+- Research Postgraduate: Zeyu LIU (MPhil)
