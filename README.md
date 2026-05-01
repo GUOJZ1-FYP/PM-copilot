@@ -4,7 +4,11 @@
 
 ### A Multi-Agent LLM System for Financial Sentiment Analysis and Its Application in Equity & IPO Markets
 
-**HKUST COMP 4981 Final Year Project · GUOJZ1 · 2025-2026**
+**HKUST COMP 4981 Final Year Project · Group GUOJZ1 · 2025-2026**
+
+<a href="https://drive.google.com/file/d/11MKsQK9IBriqFKv95wr4F_3HXMTXyFNy/view?resourcekey">
+  <img src="assets/pm-copilot-demo-cover.png" alt="PM-Copilot demo video cover" width="780">
+</a>
 
 [![Demo Video](https://img.shields.io/badge/Watch-Demo%20Video-2f6fed?style=for-the-badge)](https://drive.google.com/file/d/11MKsQK9IBriqFKv95wr4F_3HXMTXyFNy/view?resourcekey)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
@@ -21,11 +25,7 @@ This public repository currently hosts the project README, license, and demonstr
 
 ## Demo
 
-<a href="https://drive.google.com/file/d/11MKsQK9IBriqFKv95wr4F_3HXMTXyFNy/view?resourcekey">
-  <img src="assets/pm-copilot-demo-cover.png" alt="PM-Copilot demo video cover" width="780">
-</a>
-
-GitHub READMEs do not render Google Drive video players directly, so the cover image above links to the public demo video: [PM-Copilot demo video](https://drive.google.com/file/d/11MKsQK9IBriqFKv95wr4F_3HXMTXyFNy/view?resourcekey).
+Demo video: [PM-Copilot demo video](https://drive.google.com/file/d/11MKsQK9IBriqFKv95wr4F_3HXMTXyFNy/view?resourcekey).
 
 ## Overview
 
@@ -93,7 +93,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### Research Institution
 
 - The Hong Kong University of Science and Technology (HKUST)
-- PEILab (Pervasive Intelligence Laboratory)
+- [PEILab (Pervasive Intelligence Laboratory)](https://www.hkpeilab.com/)
 
 ### Faculty Advisors
 
@@ -102,5 +102,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Contributors
 
-- Undergraduates: YUNG Ka Shing / Andy Yung (@Andy123qq4), LI Yuchen / Lucas Li (@lucashimselff), and Teerth Jain (@Hunter-175)
+- Undergraduates: Andy YUNG (@Andy123qq4), Lucas LI (@lucashimselff), and Teerth Jain (@Hunter-175)
 - Research Postgraduate: Zeyu LIU (MPhil)
