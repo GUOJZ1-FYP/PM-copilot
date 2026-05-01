@@ -33,7 +33,13 @@ This section summarizes the two evaluation tracks most relevant to PM-Copilot's 
 
 ### Prompt Engineering: V0 vs V6 Sentiment Calibration
 
-The production V6 prompt adds rubric anchors and sub-scores to reduce the over-clustering seen in the baseline V0 prompt. Raw V6 scores are noisier day to day, but after EMA-21 smoothing V6 slightly overtakes V0 in the share of ticker-lag combinations with significant Spearman correlation.
+The production V6 prompt adds rubric anchors and sub-scores to reduce the over-clustering seen in the baseline V0 prompt. The distribution comparison shows V0 concentrating scores around overly bullish ranges, while V6 spreads scores across a wider, more discriminative sentiment scale.
+
+![V0 and V6 sentiment score distributions](assets/prompt-v0-v6-distribution.png)
+
+*V6 broadens the daily sentiment-score distribution across the nine-ticker evaluation set, reducing the baseline prompt's tendency to cluster around high scores.*
+
+Raw V6 scores are noisier day to day, but after EMA-21 smoothing V6 slightly overtakes V0 in the share of ticker-lag combinations with significant Spearman correlation.
 
 ![Prompt engineering significance comparison](assets/prompt-engineering-significance.png)
 
