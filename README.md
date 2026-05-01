@@ -4,8 +4,6 @@
 
 ### A Multi-Agent LLM System for Financial Sentiment Analysis and Its Application in Equity & IPO Markets
 
-**HKUST COMP 4981 Final Year Project · Group GUOJZ1 · 2025-2026**
-
 <a href="https://drive.google.com/file/d/11MKsQK9IBriqFKv95wr4F_3HXMTXyFNy/view?resourcekey">
   <img src="assets/pm-copilot-demo-cover.png" alt="PM-Copilot demo video cover" width="780">
 </a>
@@ -33,9 +31,9 @@ PM-Copilot addresses the information overload faced by portfolio managers who tr
 
 | Level | Purpose |
 | --- | --- |
-| Market | Summarize broad market movement and identify regions or themes that need attention. |
-| Basket | Explain thematic portfolio performance with catalysts, movers, and AI-generated commentary. |
-| Ticker | Produce deeper single-name analysis from multiple specialist agents and a synthesis layer. |
+| **Market** | Summarize broad market movement and identify regions or themes that need attention. |
+| **Basket** | Explain thematic portfolio performance with catalysts, movers, and AI-generated commentary. |
+| **Ticker** | Produce deeper single-name analysis from multiple specialist agents and a synthesis layer. |
 
 ## System Design
 
@@ -97,10 +95,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Faculty Advisors
 
-- Prof. Song GUO - HKUST
-- Prof. Jie ZHANG - HKUST
+- Prof. **Song GUO** - HKUST
+- Prof. **Jie ZHANG** - HKUST
 
 ### Contributors
 
-- Undergraduates: Andy YUNG (@Andy123qq4), Lucas LI (@lucashimselff), and Teerth Jain (@Hunter-175)
-- Research Postgraduate: Zeyu LIU (MPhil)
+- Undergraduates: **Andy YUNG** (@Andy123qq4), **Lucas LI** (@lucashimselff), and **Teerth Jain** (@Hunter-175)
+- Research Postgraduate: **Zeyu LIU** (MPhil)
