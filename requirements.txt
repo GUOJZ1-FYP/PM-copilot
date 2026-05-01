@@ -1,0 +1,56 @@
+# Public dependency snapshot for PM-Copilot.
+#
+# The implementation code is not published in this repository yet. This file
+# documents the Python package surface used by the project so reviewers can see
+# the expected runtime environment before the code release.
+
+# Core
+python-dotenv
+requests
+pandas
+pydantic
+tenacity
+tqdm
+rich
+httpx>=0.27.0
+
+# Data sources
+praw>=7.7.0
+finnhub-python
+yfinance
+firecrawl-py
+exa_py
+beautifulsoup4>=4.12.3
+isodate>=0.6.1
+urllib3>=2.0.0
+
+# Dashboard and visualization
+streamlit
+streamlit-aggrid
+plotly
+matplotlib
+numpy
+scipy
+statsmodels
+seaborn
+pillow>=10.0.0
+
+# Financial / technical analysis
+ta
+
+# AI / LLM tooling
+openai>=1.55.0
+tiktoken
+json-repair
+
+# System utilities
+psutil
+
+# Notebook / research support
+ipykernel>=7.2.0
+jupyter>=1.1.1
+jupyter-client>=8.8.0
+nbformat>=5.10.4
+
+# Optional delivery
+resend>=2.29.0
